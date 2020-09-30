@@ -19,13 +19,16 @@ Four files are available on this site:
 ## Installation
 ### Clone
 Clone this repository to your local machine. 
-- use: `https://github.com/tim5672s/Cpp_ML_STL.git`
+- use: `https://github.com/tim5672s/CPP_ML.git`
 
 ### Setup
-Open cloned folder into Visual Studio Code
-- open a terminal 
-- type `g++ -std=c++11 -I./include/ -o main ./src/*`
-- after it was successfull type `./main`
+Open into Visual Studio Code
+- delete existing **build** folder 
+- open terminal and navigate to **CPP_ML** folder
+- create new build folder `mkdir build` and go into it with `cd build`
+- initialize cmake with `cmake ..`
+- build cmake project with `cmake --build .`
+- project should be ready to use
 
 ## Documentation
 Coming soon 
