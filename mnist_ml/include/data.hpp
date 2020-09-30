@@ -25,7 +25,7 @@ class data{
         uint8_t get_label();
         uint8_t get_enumerated_label();
 
-        std::vector<uint8_t> * get_featured_vector();
+        std::vector<uint8_t> * get_feature_vector();
         double get_distance();
 };  
 
