@@ -79,15 +79,15 @@ include mnist_ml/CMakeFiles/data.dir/flags.make
 mnist_ml/CMakeFiles/data.dir/src/data.cpp.o: mnist_ml/CMakeFiles/data.dir/flags.make
 mnist_ml/CMakeFiles/data.dir/src/data.cpp.o: ../mnist_ml/src/data.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/timkrebs/Developer/Coding/C++/CPP_ML/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object mnist_ml/CMakeFiles/data.dir/src/data.cpp.o"
-	cd /Users/timkrebs/Developer/Coding/C++/CPP_ML/build/mnist_ml && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/data.dir/src/data.cpp.o -c /Users/timkrebs/Developer/Coding/C++/CPP_ML/mnist_ml/src/data.cpp
+	cd /Users/timkrebs/Developer/Coding/C++/CPP_ML/build/mnist_ml && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/data.dir/src/data.cpp.o -c /Users/timkrebs/Developer/Coding/C++/CPP_ML/mnist_ml/src/data.cpp
 
 mnist_ml/CMakeFiles/data.dir/src/data.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/data.dir/src/data.cpp.i"
-	cd /Users/timkrebs/Developer/Coding/C++/CPP_ML/build/mnist_ml && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/timkrebs/Developer/Coding/C++/CPP_ML/mnist_ml/src/data.cpp > CMakeFiles/data.dir/src/data.cpp.i
+	cd /Users/timkrebs/Developer/Coding/C++/CPP_ML/build/mnist_ml && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/timkrebs/Developer/Coding/C++/CPP_ML/mnist_ml/src/data.cpp > CMakeFiles/data.dir/src/data.cpp.i
 
 mnist_ml/CMakeFiles/data.dir/src/data.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/data.dir/src/data.cpp.s"
-	cd /Users/timkrebs/Developer/Coding/C++/CPP_ML/build/mnist_ml && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/timkrebs/Developer/Coding/C++/CPP_ML/mnist_ml/src/data.cpp -o CMakeFiles/data.dir/src/data.cpp.s
+	cd /Users/timkrebs/Developer/Coding/C++/CPP_ML/build/mnist_ml && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/timkrebs/Developer/Coding/C++/CPP_ML/mnist_ml/src/data.cpp -o CMakeFiles/data.dir/src/data.cpp.s
 
 data: mnist_ml/CMakeFiles/data.dir/src/data.cpp.o
 data: mnist_ml/CMakeFiles/data.dir/build.make

@@ -79,15 +79,15 @@ include mnist_ml/CMakeFiles/knn.dir/flags.make
 mnist_ml/CMakeFiles/knn.dir/src/knn.cpp.o: mnist_ml/CMakeFiles/knn.dir/flags.make
 mnist_ml/CMakeFiles/knn.dir/src/knn.cpp.o: ../mnist_ml/src/knn.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/timkrebs/Developer/Coding/C++/CPP_ML/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object mnist_ml/CMakeFiles/knn.dir/src/knn.cpp.o"
-	cd /Users/timkrebs/Developer/Coding/C++/CPP_ML/build/mnist_ml && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/knn.dir/src/knn.cpp.o -c /Users/timkrebs/Developer/Coding/C++/CPP_ML/mnist_ml/src/knn.cpp
+	cd /Users/timkrebs/Developer/Coding/C++/CPP_ML/build/mnist_ml && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/knn.dir/src/knn.cpp.o -c /Users/timkrebs/Developer/Coding/C++/CPP_ML/mnist_ml/src/knn.cpp
 
 mnist_ml/CMakeFiles/knn.dir/src/knn.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/knn.dir/src/knn.cpp.i"
-	cd /Users/timkrebs/Developer/Coding/C++/CPP_ML/build/mnist_ml && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/timkrebs/Developer/Coding/C++/CPP_ML/mnist_ml/src/knn.cpp > CMakeFiles/knn.dir/src/knn.cpp.i
+	cd /Users/timkrebs/Developer/Coding/C++/CPP_ML/build/mnist_ml && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/timkrebs/Developer/Coding/C++/CPP_ML/mnist_ml/src/knn.cpp > CMakeFiles/knn.dir/src/knn.cpp.i
 
 mnist_ml/CMakeFiles/knn.dir/src/knn.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/knn.dir/src/knn.cpp.s"
-	cd /Users/timkrebs/Developer/Coding/C++/CPP_ML/build/mnist_ml && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/timkrebs/Developer/Coding/C++/CPP_ML/mnist_ml/src/knn.cpp -o CMakeFiles/knn.dir/src/knn.cpp.s
+	cd /Users/timkrebs/Developer/Coding/C++/CPP_ML/build/mnist_ml && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/timkrebs/Developer/Coding/C++/CPP_ML/mnist_ml/src/knn.cpp -o CMakeFiles/knn.dir/src/knn.cpp.s
 
 knn: mnist_ml/CMakeFiles/knn.dir/src/knn.cpp.o
 knn: mnist_ml/CMakeFiles/knn.dir/build.make

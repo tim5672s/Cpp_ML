@@ -79,15 +79,15 @@ include mnist_ml/CMakeFiles/_Executable.dir/flags.make
 mnist_ml/CMakeFiles/_Executable.dir/app/main.cpp.o: mnist_ml/CMakeFiles/_Executable.dir/flags.make
 mnist_ml/CMakeFiles/_Executable.dir/app/main.cpp.o: ../mnist_ml/app/main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/timkrebs/Developer/Coding/C++/CPP_ML/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object mnist_ml/CMakeFiles/_Executable.dir/app/main.cpp.o"
-	cd /Users/timkrebs/Developer/Coding/C++/CPP_ML/build/mnist_ml && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/_Executable.dir/app/main.cpp.o -c /Users/timkrebs/Developer/Coding/C++/CPP_ML/mnist_ml/app/main.cpp
+	cd /Users/timkrebs/Developer/Coding/C++/CPP_ML/build/mnist_ml && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/_Executable.dir/app/main.cpp.o -c /Users/timkrebs/Developer/Coding/C++/CPP_ML/mnist_ml/app/main.cpp
 
 mnist_ml/CMakeFiles/_Executable.dir/app/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/_Executable.dir/app/main.cpp.i"
-	cd /Users/timkrebs/Developer/Coding/C++/CPP_ML/build/mnist_ml && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/timkrebs/Developer/Coding/C++/CPP_ML/mnist_ml/app/main.cpp > CMakeFiles/_Executable.dir/app/main.cpp.i
+	cd /Users/timkrebs/Developer/Coding/C++/CPP_ML/build/mnist_ml && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/timkrebs/Developer/Coding/C++/CPP_ML/mnist_ml/app/main.cpp > CMakeFiles/_Executable.dir/app/main.cpp.i
 
 mnist_ml/CMakeFiles/_Executable.dir/app/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/_Executable.dir/app/main.cpp.s"
-	cd /Users/timkrebs/Developer/Coding/C++/CPP_ML/build/mnist_ml && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/timkrebs/Developer/Coding/C++/CPP_ML/mnist_ml/app/main.cpp -o CMakeFiles/_Executable.dir/app/main.cpp.s
+	cd /Users/timkrebs/Developer/Coding/C++/CPP_ML/build/mnist_ml && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/timkrebs/Developer/Coding/C++/CPP_ML/mnist_ml/app/main.cpp -o CMakeFiles/_Executable.dir/app/main.cpp.s
 
 # Object files for target _Executable
 _Executable_OBJECTS = \

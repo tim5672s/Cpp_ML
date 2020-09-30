@@ -79,15 +79,15 @@ include mnist_ml/CMakeFiles/data_handler.dir/flags.make
 mnist_ml/CMakeFiles/data_handler.dir/src/data_handler.cpp.o: mnist_ml/CMakeFiles/data_handler.dir/flags.make
 mnist_ml/CMakeFiles/data_handler.dir/src/data_handler.cpp.o: ../mnist_ml/src/data_handler.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/timkrebs/Developer/Coding/C++/CPP_ML/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object mnist_ml/CMakeFiles/data_handler.dir/src/data_handler.cpp.o"
-	cd /Users/timkrebs/Developer/Coding/C++/CPP_ML/build/mnist_ml && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/data_handler.dir/src/data_handler.cpp.o -c /Users/timkrebs/Developer/Coding/C++/CPP_ML/mnist_ml/src/data_handler.cpp
+	cd /Users/timkrebs/Developer/Coding/C++/CPP_ML/build/mnist_ml && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/data_handler.dir/src/data_handler.cpp.o -c /Users/timkrebs/Developer/Coding/C++/CPP_ML/mnist_ml/src/data_handler.cpp
 
 mnist_ml/CMakeFiles/data_handler.dir/src/data_handler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/data_handler.dir/src/data_handler.cpp.i"
-	cd /Users/timkrebs/Developer/Coding/C++/CPP_ML/build/mnist_ml && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/timkrebs/Developer/Coding/C++/CPP_ML/mnist_ml/src/data_handler.cpp > CMakeFiles/data_handler.dir/src/data_handler.cpp.i
+	cd /Users/timkrebs/Developer/Coding/C++/CPP_ML/build/mnist_ml && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/timkrebs/Developer/Coding/C++/CPP_ML/mnist_ml/src/data_handler.cpp > CMakeFiles/data_handler.dir/src/data_handler.cpp.i
 
 mnist_ml/CMakeFiles/data_handler.dir/src/data_handler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/data_handler.dir/src/data_handler.cpp.s"
-	cd /Users/timkrebs/Developer/Coding/C++/CPP_ML/build/mnist_ml && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/timkrebs/Developer/Coding/C++/CPP_ML/mnist_ml/src/data_handler.cpp -o CMakeFiles/data_handler.dir/src/data_handler.cpp.s
+	cd /Users/timkrebs/Developer/Coding/C++/CPP_ML/build/mnist_ml && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/timkrebs/Developer/Coding/C++/CPP_ML/mnist_ml/src/data_handler.cpp -o CMakeFiles/data_handler.dir/src/data_handler.cpp.s
 
 data_handler: mnist_ml/CMakeFiles/data_handler.dir/src/data_handler.cpp.o
 data_handler: mnist_ml/CMakeFiles/data_handler.dir/build.make
