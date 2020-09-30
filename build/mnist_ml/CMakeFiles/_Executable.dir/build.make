@@ -97,12 +97,14 @@ _Executable_OBJECTS = \
 _Executable_EXTERNAL_OBJECTS = \
 "/Users/timkrebs/Developer/Coding/C++/CPP_ML/build/mnist_ml/CMakeFiles/data_handler.dir/src/data_handler.cpp.o" \
 "/Users/timkrebs/Developer/Coding/C++/CPP_ML/build/mnist_ml/CMakeFiles/data.dir/src/data.cpp.o" \
-"/Users/timkrebs/Developer/Coding/C++/CPP_ML/build/mnist_ml/CMakeFiles/knn.dir/src/knn.cpp.o"
+"/Users/timkrebs/Developer/Coding/C++/CPP_ML/build/mnist_ml/CMakeFiles/knn.dir/src/knn.cpp.o" \
+"/Users/timkrebs/Developer/Coding/C++/CPP_ML/build/mnist_ml/CMakeFiles/setter.dir/src/setter.cpp.o"
 
 mnist_ml/_Executable: mnist_ml/CMakeFiles/_Executable.dir/app/main.cpp.o
 mnist_ml/_Executable: mnist_ml/CMakeFiles/data_handler.dir/src/data_handler.cpp.o
 mnist_ml/_Executable: mnist_ml/CMakeFiles/data.dir/src/data.cpp.o
 mnist_ml/_Executable: mnist_ml/CMakeFiles/knn.dir/src/knn.cpp.o
+mnist_ml/_Executable: mnist_ml/CMakeFiles/setter.dir/src/setter.cpp.o
 mnist_ml/_Executable: mnist_ml/CMakeFiles/_Executable.dir/build.make
 mnist_ml/_Executable: mnist_ml/CMakeFiles/_Executable.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/timkrebs/Developer/Coding/C++/CPP_ML/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable _Executable"

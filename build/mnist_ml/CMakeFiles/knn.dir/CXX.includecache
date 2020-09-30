@@ -31,10 +31,14 @@ data.hpp
 /Users/timkrebs/Developer/Coding/C++/CPP_ML/mnist_ml/include/data.hpp
 
 /Users/timkrebs/Developer/Coding/C++/CPP_ML/mnist_ml/include/knn.hpp
-vector
--
+setter.hpp
+/Users/timkrebs/Developer/Coding/C++/CPP_ML/mnist_ml/include/setter.hpp
+
+/Users/timkrebs/Developer/Coding/C++/CPP_ML/mnist_ml/include/setter.hpp
 data.hpp
 /Users/timkrebs/Developer/Coding/C++/CPP_ML/mnist_ml/include/data.hpp
+vector
+-
 
 /Users/timkrebs/Developer/Coding/C++/CPP_ML/mnist_ml/src/knn.cpp
 cmath
@@ -49,4 +53,6 @@ stdint.h
 /Users/timkrebs/Developer/Coding/C++/CPP_ML/mnist_ml/include/knn.hpp
 ../include/data_handler.hpp
 /Users/timkrebs/Developer/Coding/C++/CPP_ML/mnist_ml/include/data_handler.hpp
+../include/setter.hpp
+/Users/timkrebs/Developer/Coding/C++/CPP_ML/mnist_ml/include/setter.hpp
 

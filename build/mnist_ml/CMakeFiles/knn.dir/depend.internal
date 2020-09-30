@@ -5,4 +5,5 @@ mnist_ml/CMakeFiles/knn.dir/src/knn.cpp.o
  /Users/timkrebs/Developer/Coding/C++/CPP_ML/mnist_ml/include/data.hpp
  /Users/timkrebs/Developer/Coding/C++/CPP_ML/mnist_ml/include/data_handler.hpp
  /Users/timkrebs/Developer/Coding/C++/CPP_ML/mnist_ml/include/knn.hpp
+ /Users/timkrebs/Developer/Coding/C++/CPP_ML/mnist_ml/include/setter.hpp
  /Users/timkrebs/Developer/Coding/C++/CPP_ML/mnist_ml/src/knn.cpp

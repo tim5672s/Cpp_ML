@@ -4,5 +4,6 @@
 mnist_ml/CMakeFiles/knn.dir/src/knn.cpp.o: ../mnist_ml/include/data.hpp
 mnist_ml/CMakeFiles/knn.dir/src/knn.cpp.o: ../mnist_ml/include/data_handler.hpp
 mnist_ml/CMakeFiles/knn.dir/src/knn.cpp.o: ../mnist_ml/include/knn.hpp
+mnist_ml/CMakeFiles/knn.dir/src/knn.cpp.o: ../mnist_ml/include/setter.hpp
 mnist_ml/CMakeFiles/knn.dir/src/knn.cpp.o: ../mnist_ml/src/knn.cpp
 

@@ -175,6 +175,21 @@ data/fast:
 .PHONY : data/fast
 
 # Convenience name for target.
+mnist_ml/CMakeFiles/setter.dir/rule:
+	cd /Users/timkrebs/Developer/Coding/C++/CPP_ML/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mnist_ml/CMakeFiles/setter.dir/rule
+.PHONY : mnist_ml/CMakeFiles/setter.dir/rule
+
+# Convenience name for target.
+setter: mnist_ml/CMakeFiles/setter.dir/rule
+
+.PHONY : setter
+
+# fast build rule for target.
+setter/fast:
+	cd /Users/timkrebs/Developer/Coding/C++/CPP_ML/build && $(MAKE) $(MAKESILENT) -f mnist_ml/CMakeFiles/setter.dir/build.make mnist_ml/CMakeFiles/setter.dir/build
+.PHONY : setter/fast
+
+# Convenience name for target.
 mnist_ml/CMakeFiles/data_handler.dir/rule:
 	cd /Users/timkrebs/Developer/Coding/C++/CPP_ML/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mnist_ml/CMakeFiles/data_handler.dir/rule
 .PHONY : mnist_ml/CMakeFiles/data_handler.dir/rule
@@ -297,6 +312,33 @@ src/knn.cpp.s:
 	cd /Users/timkrebs/Developer/Coding/C++/CPP_ML/build && $(MAKE) $(MAKESILENT) -f mnist_ml/CMakeFiles/knn.dir/build.make mnist_ml/CMakeFiles/knn.dir/src/knn.cpp.s
 .PHONY : src/knn.cpp.s
 
+src/setter.o: src/setter.cpp.o
+
+.PHONY : src/setter.o
+
+# target to build an object file
+src/setter.cpp.o:
+	cd /Users/timkrebs/Developer/Coding/C++/CPP_ML/build && $(MAKE) $(MAKESILENT) -f mnist_ml/CMakeFiles/setter.dir/build.make mnist_ml/CMakeFiles/setter.dir/src/setter.cpp.o
+.PHONY : src/setter.cpp.o
+
+src/setter.i: src/setter.cpp.i
+
+.PHONY : src/setter.i
+
+# target to preprocess a source file
+src/setter.cpp.i:
+	cd /Users/timkrebs/Developer/Coding/C++/CPP_ML/build && $(MAKE) $(MAKESILENT) -f mnist_ml/CMakeFiles/setter.dir/build.make mnist_ml/CMakeFiles/setter.dir/src/setter.cpp.i
+.PHONY : src/setter.cpp.i
+
+src/setter.s: src/setter.cpp.s
+
+.PHONY : src/setter.s
+
+# target to generate assembly for a file
+src/setter.cpp.s:
+	cd /Users/timkrebs/Developer/Coding/C++/CPP_ML/build && $(MAKE) $(MAKESILENT) -f mnist_ml/CMakeFiles/setter.dir/build.make mnist_ml/CMakeFiles/setter.dir/src/setter.cpp.s
+.PHONY : src/setter.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -309,6 +351,7 @@ help:
 	@echo "... data"
 	@echo "... data_handler"
 	@echo "... knn"
+	@echo "... setter"
 	@echo "... app/main.o"
 	@echo "... app/main.i"
 	@echo "... app/main.s"
@@ -321,6 +364,9 @@ help:
 	@echo "... src/knn.o"
 	@echo "... src/knn.i"
 	@echo "... src/knn.s"
+	@echo "... src/setter.o"
+	@echo "... src/setter.i"
+	@echo "... src/setter.s"
 .PHONY : help
 
 

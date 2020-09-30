@@ -31,10 +31,14 @@ data.hpp
 ../mnist_ml/include/data.hpp
 
 ../mnist_ml/include/knn.hpp
-vector
--
+setter.hpp
+../mnist_ml/include/setter.hpp
+
+../mnist_ml/include/setter.hpp
 data.hpp
 ../mnist_ml/include/data.hpp
+vector
+-
 
 /Users/timkrebs/Developer/Coding/C++/CPP_ML/mnist_ml/app/main.cpp
 fstream
@@ -55,4 +59,6 @@ data.hpp
 /Users/timkrebs/Developer/Coding/C++/CPP_ML/mnist_ml/app/data.hpp
 knn.hpp
 /Users/timkrebs/Developer/Coding/C++/CPP_ML/mnist_ml/app/knn.hpp
+setter.hpp
+/Users/timkrebs/Developer/Coding/C++/CPP_ML/mnist_ml/app/setter.hpp
 

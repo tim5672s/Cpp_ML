@@ -169,6 +169,19 @@ data/fast:
 .PHONY : data/fast
 
 #=============================================================================
+# Target rules for targets named setter
+
+# Build rule for target.
+setter: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 setter
+.PHONY : setter
+
+# fast build rule for target.
+setter/fast:
+	$(MAKE) $(MAKESILENT) -f mnist_ml/CMakeFiles/setter.dir/build.make mnist_ml/CMakeFiles/setter.dir/build
+.PHONY : setter/fast
+
+#=============================================================================
 # Target rules for targets named data_handler
 
 # Build rule for target.
@@ -193,6 +206,7 @@ help:
 	@echo "... data"
 	@echo "... data_handler"
 	@echo "... knn"
+	@echo "... setter"
 .PHONY : help
 
 

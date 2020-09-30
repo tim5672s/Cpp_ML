@@ -5,4 +5,5 @@ mnist_ml/CMakeFiles/_Executable.dir/app/main.cpp.o
  ../mnist_ml/include/data.hpp
  ../mnist_ml/include/data_handler.hpp
  ../mnist_ml/include/knn.hpp
+ ../mnist_ml/include/setter.hpp
  /Users/timkrebs/Developer/Coding/C++/CPP_ML/mnist_ml/app/main.cpp
