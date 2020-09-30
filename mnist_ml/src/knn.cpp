@@ -77,7 +77,7 @@ int knn::predict(){
     int best = 0;
     int max = 0;
 
-    for(auto&& [keyVal : class_freq] : class_freq){
+    for(auto keyVal : class_freq){
         if(keyVal.second > max){
             max = keyVal.second;
             best = keyVal.first;
@@ -87,41 +87,47 @@ int knn::predict(){
     return best;
 }
 
-double knn::calculate_distance(data *query_point, data * input){
+double knn::calculate_distance(data* query_point, data* input){
     double distance = 0.0;
     if(query_point->get_feature_vector_size() != input->get_feature_vector_size()){
         printf("ERROR - Vector size missmatch\n");
         exit(1);
     }
-    #ifdef EUCLID
+    //#ifdef EUCLID
     for(unsigned i = 0; i < query_point->get_feature_vector_size(); i++){
-        distance += pow(query_point->get_feature_vector()->at(i) - input->get_feature_vector()-at(i), 2);
+        distance += pow(query_point->get_feature_vector()->at(i) - input->get_feature_vector()->at(i), 2);
     }
     distance = sqrt(distance);
-    #elif defined MANHATTAN
+    //#elif defined MANHATTAN
     //PUT MANHATTAN imple here
-    #endif
+    //#endif
+    return distance;
 }
 double knn::validate_performance(){
     double current_performance = 0;
     int count = 0;
     int data_index = 0;
+
     for(data *query_point : *validation_data){
         find_knearest(query_point);
         int prediction = predict();
+        printf("%d -> %d\n", prediction, query_point->get_label());
         if(prediction == query_point->get_label()){
             count++;
         }
+        data_index++;
         printf("Current Performance: %.3f %%\n", ((double)count*100.0) / ((double)data_index));
     }
-    printf("Validation Performance for K = %d: %.3f %%\n", k,((double)count*100.0) / ((double)validation_data->size()));
-    return ((double)count*100.0) / ((double)validation_data->size()); 
+    current_performance = ((double)count*100.0) / ((double)validation_data->size());
+    printf("Validation Performance for K = %d: %.3f %%\n", k, current_performance);
+    return current_performance; 
 }
 
 double knn::test_performance(){
     double current_performance = 0;
     int count = 0;
     int data_index = 0;
+
     for(data *query_point : *test_data){
         find_knearest(query_point);
         int prediction = predict();
