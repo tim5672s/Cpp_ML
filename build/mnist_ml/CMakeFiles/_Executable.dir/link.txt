@@ -1,0 +1,1 @@
+/usr/bin/clang++ -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/_Executable.dir/app/main.cpp.o CMakeFiles/data_handler.dir/src/data_handler.cpp.o CMakeFiles/data.dir/src/data.cpp.o CMakeFiles/knn.dir/src/knn.cpp.o -o _Executable 

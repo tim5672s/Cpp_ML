@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/timkrebs/Developer/Coding/C++/CPP_ML/mnist_ml/include/data.hpp
+vector
+-
+stdint.h
+/Users/timkrebs/Developer/Coding/C++/CPP_ML/mnist_ml/include/stdint.h
+stdio.h
+/Users/timkrebs/Developer/Coding/C++/CPP_ML/mnist_ml/include/stdio.h
+
+/Users/timkrebs/Developer/Coding/C++/CPP_ML/mnist_ml/include/data_handler.hpp
+fstream
+-
+vector
+-
+string
+-
+map
+-
+unordered_set
+-
+stdint.h
+/Users/timkrebs/Developer/Coding/C++/CPP_ML/mnist_ml/include/stdint.h
+data.hpp
+/Users/timkrebs/Developer/Coding/C++/CPP_ML/mnist_ml/include/data.hpp
+
+/Users/timkrebs/Developer/Coding/C++/CPP_ML/mnist_ml/src/data_handler.cpp
+../include/data_handler.hpp
+/Users/timkrebs/Developer/Coding/C++/CPP_ML/mnist_ml/include/data_handler.hpp
+
