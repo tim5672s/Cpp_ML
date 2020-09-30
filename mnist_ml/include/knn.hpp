@@ -23,7 +23,7 @@ class knn{
         void set_k(int val);
 
         int predict();
-        double calculate_distance(data *query_point, data * input);
+        double calculate_distance(data *query_point, data *input);
         double validate_performance();
         double test_performance();
 
