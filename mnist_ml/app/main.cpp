@@ -8,17 +8,8 @@
 #include "data_handler.hpp"
 #include "data.hpp"
 #include "knn.hpp"
+#include "setter.hpp"
 
-/*
-int main(){
-    data_handler *dh = new data_handler();
-    
-    dh->read_feature_vector("../../mnist_data/train-images-idx3-ubyte");
-    dh->read_feature_label("../../mnist_data/train-labels-idx1-ubyte");
-    dh->data_handler::split_data();
-    dh->data_handler::count_classes();
-}
-*/
 
 int main(){
     data_handler *dh = new data_handler();
